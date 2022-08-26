@@ -11,7 +11,7 @@ namespace Tests
      public class LoginTest : BaseTest
     {
         [Test]
-        public void NegativeLogin()
+        public void VeirfyTest()
         {
             InitPage init = new InitPage(driver);
             init.ClicLogin();
